@@ -160,6 +160,10 @@ button:hover {
     position: relative;
     text-decoration: none;
 }
+.project img {
+    max-width: 100%;
+    height: auto;
+}
 
 .project:hover {
     opacity: .6;
@@ -306,9 +310,9 @@ footer {
     }
 
     .project img {
-        width: 300px;
         display: block;
         margin: 0 auto;
+        width: 300px;
     }
     
     .project {
@@ -323,10 +327,20 @@ footer {
     ul {
         left: 11.7%;
     }
+    .project img {
+        width: 260px;
+        display: block;
+        margin: 0 auto;
+    }
 }
 /* added for tiny phones (like mine) when my name changes to two lines */
 @media screen and (max-width: 341px) {
     header {
         height: 130px;
+    }
+    .project img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
     }
 }
